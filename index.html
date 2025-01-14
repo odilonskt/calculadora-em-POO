@@ -1,42 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <main>
+    <main class="principal"> 
         <section class="principal__sessaoum sessao">
             <div id="res" class="sessaoum__resultado"></div>
         </section>
         <section class="principal__sessaodois sessao">
-            <input type="button" value="clr" id="limpar" onclick="limpar()" class="sessaodois__botoes">
-            <input type="button" value="DEL" id="deletar" onclick="deletar()" class="sessaodois__botoes">
-            <input type="button" value="%" id="resto" onclick="calc('%')" class="sessaodois__botoes">
-            <input type="button" value="/" id="divisão" onclick="calc('/')" class="sessaodois__botoes">
+            <input type="button" value="clr" id="limpar"  class="sessaodois__botoes">
+            <input type="button" value="DEL" id="deletar"  class="sessaodois__botoes">
+            <input type="button" value="%" id="resto"  class="sessaodois__botoes">
+            <input type="button" value="/" id="divisao"  class="sessaodois__botoes">
             
-            <input type="button" value="7" id="sete" onclick="calc(7)" class="sessaodois__botoes">
-            <input type="button" value="8" id="oito" onclick="calc(8)" class="sessaodois__botoes">
-            <input type="button" value="9" id="nove" onclick="calc(9)" class="sessaodois__botoes">
-            <input type="button" value="*" id="multilplicar" onclick="calc('*')" class="sessaodois__botoes">
+            <input type="button" value="7" id="sete"  class="sessaodois__botoes">
+            <input type="button" value="8" id="oito"  class="sessaodois__botoes">
+            <input type="button" value="9" id="nove"  class="sessaodois__botoes">
+            <input type="button" value="*" id="multiplicar"  class="sessaodois__botoes">
             
-            <input type="button" value="4" id="quatro" onclick="calc(4)" class="sessaodois__botoes">
-            <input type="button" value="5" id="cinco" onclick="calc(5)" class="sessaodois__botoes">
-            <input type="button" value="6" id="seis" onclick="calc(6)" class="sessaodois__botoes">
-            <input type="button" value="-" id="subtrair" onclick="calc('-')" class="sessaodois__botoes">
+            <input type="button" value="4" id="quatro"  class="sessaodois__botoes">
+            <input type="button" value="5" id="cinco"  class="sessaodois__botoes">
+            <input type="button" value="6" id="seis"  class="sessaodois__botoes">
+            <input type="button" value="-" id="subtrair"  class="sessaodois__botoes">
             
-            <input type="button" value="3" id="tres" onclick="calc(3)" class="sessaodois__botoes">
-            <input type="button" value="2" id="dois" onclick="calc(2)" class="sessaodois__botoes">
-            <input type="button" value="1" id="um" onclick="calc(1)" class="sessaodois__botoes">
-            <input type="button" value="+" id="somar" onclick="calc('+')" class="sessaodois__botoes">
+            <input type="button" value="3" id="tres"  class="sessaodois__botoes">
+            <input type="button" value="2" id="dois"  class="sessaodois__botoes">
+            <input type="button" value="1" id="um"  class="sessaodois__botoes">
+            <input type="button" value="+" id="somar"  class="sessaodois__botoes">
             
-            <input type="button" value="." id="ponto" onclick="calc('.')" class="sessaodois__botoes">
-            <input type="button" value="0" id="zero" onclick="calc(0)" class="sessaodois__botoes">
-            <input type="button" value="=" id="igual" onclick="calcular()" class="sessaodois__botoes igualbtn">
+            <input type="button" value="." id="ponto"  class="sessaodois__botoes">
+            <input type="button" value="0" id="zero"  class="sessaodois__botoes">
+            <input type="button" value="=" id="igual"  class="sessaodois__botoes igualbtn">
         </section>
     </main>
-
-    <script type="module" src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
